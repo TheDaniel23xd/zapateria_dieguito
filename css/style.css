@@ -248,8 +248,37 @@ h5.shop_w3 {
     background-size: cover;
 }
 
-.ibanner_w3 {
+.ibanner_w1 {
     background: url(../images/inner_ban.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 260px;
+}
+
+.ibanner_w2 {
+    background: url(../images/inner_ban2.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 260px;
+}
+.ibanner_w3 {
+    background: url(../images/inner_ban3.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 260px;
+}
+
+.ibanner_w4 {
+    background: url(../images/inner_ban4.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
