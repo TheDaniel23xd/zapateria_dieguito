@@ -393,7 +393,7 @@
                         <form action="#" method="post">
                             <input type="hidden" name="cmd" value="_cart">
                             <input type="hidden" name="add" value="1">
-                            <input type="hidden" name="hub_item" value="Floral Print Women's Top">
+                            <input type="hidden" name="hub_item" value="Zapatos">
                             <input type="hidden" name="amount" value="18.00">
                            <button type="submit" class="hub-cart phub-cart btn">
                                 <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -792,66 +792,79 @@
 </footer>
 <!-- //footer -->
     <!-- sign up Modal -->
-    <div class="modal fade" id="myModal_btn" tabindex="-1" role="dialog" aria-labelledby="myModal_btn" aria-hidden="true">
-        <div class="agilemodal-dialog modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Register Now</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body pt-3 pb-5 px-sm-5">
-                    <div class="row">
-                        <div class="col-md-6 align-self-center">
-                            <img src="../images/p3.png" class="img-fluid" alt="login_image" />
-                        </div>
-                        <div class="col-md-6">
-                            <form action="#" method="post">
-                                <div class="form-group">
-                                    <label for="recipient-name1" class="col-form-label">Your Name</label>
-                                    <input type="text" class="form-control" placeholder=" " name="Name" id="recipient-name1" required="">
+    <div class="modal fade" id="myModal_btn" tabindex="-1" role="dialog" aria-labelledby="myModal_btn"
+    aria-hidden="true">
+    <div class="agilemodal-dialog modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Registrate ahora</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body pt-3 pb-5 px-sm-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto align-self-center">
+                        <img src="../images/p3.png" class="img-fluid" alt="login_image" />
+                    </div>
+                    <div class="col-md-6">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="recipient-name1" class="col-form-label">Tu nombre</label>
+                                <input type="text" class="form-control" placeholder=" " name="Name"
+                                    id="recipient-name1"
+                                    pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"
+                                    title="Ingrese un nombre valido." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-email" class="col-form-label">Correo</label>
+                                <input type="email" class="form-control" placeholder=" " name="Email"
+                                    id="recipient-email"
+                                    pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+                                    title="Ingrese una direccion de correo valida." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password1" class="col-form-label">Contraseña</label>
+                                <input type="password" class="form-control" placeholder=" " name="Password"
+                                    id="password1" pattern="[A-Za-z0-9!?-]{8,12}"
+                                    title="Ingrese una Contraseña valida." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password2" class="col-form-label">Confirmar contraseña</label>
+                                <input type="password" class="form-control" placeholder=" " name="Confirm Password"
+                                    id="password2" pattern="[A-Za-z0-9!?-]{8,12}"
+                                    title="Ingrese una contraseña valida." required>
+                            </div>
+                            <div class="sub-w3l">
+                                <div class="sub-agile">
+                                    <input type="checkbox" id="brand2" value="">
+                                    <label for="brand2" class="mb-3">
+                                        <span></span>Acepto los <a href="../pages/Terms.html" target="_blank ">Términos y Condiciones</a></label>
                                 </div>
-                                <div class="form-group">
-                                    <label for="recipient-email" class="col-form-label">Email</label>
-                                    <input type="email" class="form-control" placeholder=" " name="Email" id="recipient-email" required="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password1" class="col-form-label">Password</label>
-                                    <input type="password" class="form-control" placeholder=" " name="Password" id="password1" required="">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password2" class="col-form-label">Confirm Password</label>
-                                    <input type="password" class="form-control" placeholder=" " name="Confirm Password" id="password2" required="">
-                                </div>
-                                <div class="sub-w3l">
-                                    <div class="sub-agile">
-                                        <input type="checkbox" id="brand2" value="">
-                                        <label for="brand2" class="mb-3">
-                                            <span></span>I Accept to the Terms & Conditions</label>
-                                    </div>
-                                </div>
-                                <div class="right-w3l">
-                                    <input type="submit" class="form-control" value="Register">
-                                </div>
-                            </form>
-                            <p class="text-center mt-3">Already a member?
-                                <a href="#" data-toggle="modal" data-target="#exampleModal1" class="text-dark login_btn">
-                                    Login Now</a>
-                            </p>
-                        </div>
+                            </div>
+                            <div class="right-w3l">
+                                <input type="submit" class="form-control" value="Registrarse">
+                            </div>
+                        </form>
+                        <p class="text-center mt-3">Ya es miembro?
+                            <a href="#" data-toggle="modal" data-target="#exampleModal1"
+                                class="text-dark login_btn">
+                                Inicia sesion ahora</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+  </div>
     <!-- //signup modal -->
     <!-- signin Modal -->
-    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1" aria-hidden="true">
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1"
+        aria-hidden="true">
         <div class="agilemodal-dialog modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Inicio de sesión</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -859,20 +872,22 @@
                 <div class="modal-body  pt-3 pb-5 px-sm-5">
                     <div class="row">
                         <div class="col-md-6 align-self-center">
-                            <img src="../images/p3.png" class="img-fluid" alt="login_image" />
+                            <img src="/images/p3.png" class="img-fluid" alt="login_image" />
                         </div>
                         <div class="col-md-6">
                             <form action="#" method="post">
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Your Name</label>
-                                    <input type="text" class="form-control" placeholder=" " name="Name" id="recipient-name" required="">
+                                    <label for="recipient-name" class="col-form-label">Tu nombre</label>
+                                    <input type="text" class="form-control" placeholder=" " name="Name"
+                                        id="recipient-name" required="">
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-form-label">Password</label>
-                                    <input type="password" class="form-control" placeholder=" " name="Password" required="">
+                                    <label class="col-form-label">Contraseña</label>
+                                    <input type="password" class="form-control" placeholder=" " name="Password"
+                                        required="">
                                 </div>
                                 <div class="right-w3l">
-                                    <input type="submit" class="form-control" value="Login">
+                                    <input type="submit" class="form-control" value="Iniciar Sesion">
                                 </div>
                             </form>
                         </div>
